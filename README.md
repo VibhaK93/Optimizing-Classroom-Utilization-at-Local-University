@@ -1,7 +1,7 @@
 # Optimizing-Classroom-Utilization-at-Local-University
 
 
-**Purpose** : This case study offers recommendations for optimizing classroom portfolios at a local university in the Bay Area. This university has diverse classrooms that vary in size, capacity, configuration, condition, and intended use. I analyzed the data using Excel and conducted exploratory analysis, along with visualizations in Python, to examine the provided dataset. This analysis aims to uncover insights and develop strategies to enhance classroom utilization at the college.
+**Purpose** : This case study offers recommendations for optimizing classroom portfolios at a local university. This university has diverse classrooms that vary in size, capacity, configuration, condition, and intended use. I analyzed the data using Excel and SQL and analyzed to examine the provided dataset to evaluate classroom utilization and provide insights for optimization.
 
 **Dataset 1: (Room Data)**
 
@@ -185,5 +185,67 @@ From RoomUseData;
 
 <img width="625" alt="Screenshot 2025-05-07 at 10 44 08 AM" src="https://github.com/user-attachments/assets/5b3af1ac-252b-41f9-8b7a-49ce72a10cfa" />
 
+
+**✅ Key Findings & Recommendations**
+
+**1. Underutilized Classrooms (Occupancy < 40%)**
+
+Finding: 
+
+- Several rooms show low occupancy headcounts relative to their capacity.
+
+Recommendation:
+
+- Reassign smaller classes to smaller rooms to better match room size with actual attendance.
+
+- Repurpose underutilized rooms (e.g., for meetings, study halls, or labs).
+
+**2. Departments with Consistently Low Average Occupancy**
+   
+Finding: 
+
+- Some departments have significantly lower average occupancy headcounts.
+
+Recommendation:
+
+- Conduct a curriculum review to see if class sizes or scheduling practices can be optimized.
+
+- Encourage departments to offer fewer small in-person classes or bundle multiple small groups into shared sessions.
+
+**3. High Weekly Usage but Low Headcount**
+   
+Finding: 
+
+- Some rooms are used frequently (high weekly hours) but serve few students.
+
+Recommendation:
+
+- Investigate inefficient scheduling patterns (e.g., long class durations for small groups).
+
+- Prioritize these rooms for reassignment or alternate use during off-peak times.
+
+**4. Optimize Scheduling Based on Room Capacity & Demand**
+   
+Finding: 
+
+- There’s a mismatch between room capacity and actual use.
+
+Recommendation:
+
+- Use the Average_Headcount metric to restructure the room assignment algorithm.
+
+- Implement a centralized scheduling system to match class size with room size dynamically.
+
+**5. Space Management Strategy**
+
+Finding: 
+
+- There’s a lack of uniformity in utilization.
+
+Recommendation:
+
+- Define a utilization threshold (e.g., ≥70% occupancy) and rotate low-performing rooms.
+
+- Use these metrics to justify future investments or space reductions.
 
 
